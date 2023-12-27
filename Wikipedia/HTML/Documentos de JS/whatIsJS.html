@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/CSS/step.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism.min.css"> -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's JS</title>
+</head>
+<body>
+    <div>
+        <h1>What is JavaScript.</h1>
+        <p>JS typically refers to JavaScript, a popular programming language used for web development. JavaScript is a high-level, interpreted programming language that allows developers </p>
+    </div>
+
+    <div>
+        <h2>Types of variables.</h2>
+        <h3>There are 3 types of variables in JS</h3>
+        <p><span class="boldClass">Let</span>  Introduced in ES6, let allows you to declare block-scoped variables. Variables declared with let have scope limited to the block they are defined in</p>
+
+        <div class="blackCoding">
+            <p class="codingExample"><span class="darkBlue">let</span> age = 19</p>
+        </div>
+
+        <p><span class="boldClass">Const</span>   introduced in ES6, const is used to declare variables that cannot be reassigned after their initial assignment.</p>
+
+        <div class="blackCoding">
+            <p class="codingExample"><span class="darkBlue">const </span>age = 19</p>
+        </div>
+
+        <p><span class="boldClass">Var</span>  Before the introduction of ES6, var was the primary keyword used to declare variables. It has function scope or global scope</p>
+
+        <div class="blackCoding">
+            <p class="codingExample"><span class="darkBlue">var </span>age = 19</p>
+        </div>
+
+        <div class="forLoop">
+            <!-- <h2 class="subtitles">Loops</h2> -->
+            <h2 class="subtitles">For Loop</h2>
+            <p>A for loop is a programming construct used for repetitive execution of a block of code.</p>
+            <div class="blackCoding">
+
+                <div class="blockLine">
+                    <div class="margin-top">
+                         <p style=" width: 100%;" ><span class="purple">for</span>( <span class="green">let i = 0</span>; <span class="blue">i &lt; array.length</span>; <span class="pink">i++</span>)</p>
+                    </div>
+                </div>  
+
+                <div class="blockLine">
+                    <p style=" width: 100%;"><span class="purple">for</span>(<span class="green">Initialization</span>; <span class="blue">Condition</span>; <span class="pink">Iteration</span>)</p>
+                </div>
+
+            </div>
+
+            <h3>For loop Parameters</h3>
+                <p>the for loop takes 3 parameters, which are for(initialization; condition; iteration)</p>
+
+                    <ol>
+                        <li><span class="boldClass">Initialization:</span> The initialization parameter is executed before the loop begins. It is used to initialize the loop variable or any other necessary variables. This parameter typically assigns an initial value to the loop variable.</li>
+                        <li><span class="boldClass">Condition:</span> The condition parameter is evaluated before each iteration of the loop. If the condition is true, the loop continues executing. If the condition is false, the loop terminates</li>
+                        <li><span class="boldClass">Iteration:</span> The iteration parameter is executed at the end of each iteration, just before evaluating the condition again. It typically modifies the loop variable</li>
+                    </ol>
+        </div>
+        <div class="whileLoop">
+
+            <h2 class="subtitles">While Loop</h2>
+            <p>In JavaScript, a while loop is a control flow statement that allows you to repeatedly execute a block of code as long as a specified condition evaluates to true.</p>
+
+            <div class="blackCoding">
+                <p><span class="darkBlue">let</span> count = 4</p>
+                <p><span class="purple">while</span> (condition){ <br>
+                    console.log(count) <br>
+                }</p>
+            </div>
+
+        </div>
+
+        <div class="if">
+            <h2>What's if?</h2>
+            <p> if statement is a control flow statement that allows you to execute a block of code conditionally</p>
+
+            <div class="blackCoding">
+                <p><span class="darkBlue">let </span>num = 10;</p>
+                <p><span class="purple">if</span>(num &lt; 10){ <br>
+                  console.log(<span class="orange">"the numbers is less than 10"</span>)             <br>
+                  <span class="purple">else if</span>(num &gt; 10){ <br>
+                  console.log(<span class="orange">"the number is more than 10"</span>) <br> }
+              <br> } </p>
+            </div>
+        </div>
+        <p><span class="boldClass">if</span>: what does if do is to make a condition, if the condition is met it will run a function that are inside of the {}</p>
+        <p><span class="boldClass">Else if</span>: else if is similary to the if, but we only are going to use else if to make a second condition, for example, if the first condition is not met, with the else if we can have a second condition. we may have as many as we want.</p>
+        <p><span class="boldClass">Else</span>: the Else statement  is used when we do not require any condition.</p>
+    
+        <div class="functions">
+            <h2>What is a function?</h2>
+            <p>A function is a reusable block of code that performs a specific task or a set of instructions. It allows you to encapsulate a piece of code into a named entity, which can be called and executed multiple times throughout your program.</p>
+
+            <div class="blackCoding">
+                <p><span class="darkBlue">let</span> a = 5;</p> <br>
+                <p><span class="darkBlue">let</span> b = 4;</p>
+                <p><span class="darkBlue">function</span> <span class="yellow">sum</span> (a,b){ <br>
+                    \
+                    <spam class="darkBlue">let</spam> sum = a + b; <br>
+                    <span class="purple">return</span> sum;
+              <br>  }</p>
+            </div>
+            <ol>
+                <li>The function is named addNumbers.</li>
+                <li>It takes two parameters a and b, which represent the numbers to be added.</li>
+                <li>Inside the function, the code calculates the sum of the two numbers and assigns it to the variable sum.</li>
+                <li>The return statement is used to specify the value that the function will output. In this case, it returns the calculated sum.</li>
+            </ol>
+        </div>
+
+        <div class="array">
+            <h2>What's an array?</h2>
+            <p>Array is a data structure that allows you to store and organize multiple values of the same data type in a single variable</p>
+            <ol>
+                <span class="boldClass">Examples:</span> <br>
+                <br><li><span class="boldClass">Grouping Data:</span> Arrays are used to organize related data elements together. For example, if you have a list of students' names</li> <br>
+                <li><span class="boldClass">Iteration and Loops:</span> Arrays work seamlessly with loops, allowing you to iterate over all elements of an array and perform operations on each element without writing repetitive code.</li> <br>
+                <li><span class="boldClass">Implementing Data Structures: </span>Many data structures, such as stacks, queues, and matrices, are often implemented using arrays.</li>
+            </ol>
+
+             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="ArrayOperations">
+
+
+                <h2>Array Operations</h2>
+        <!---->
+                <h3>Array index</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>console.log(numbers[3])</p> <br>
+
+                    <p><span class="yellow">4</span></p>
+                </div>
+                <p>array[index];</p>
+        <!---->
+                <h3>Array.length</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>console.log(numbers.length)</p> <br>
+
+                    <p><span class="yellow">5</span></p>
+                </div>
+                <p>array.length;</p>
+        <!--Array push-->
+                <h3>Array Push</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p> 
+                    <p>numbers.push(<span class="answerColor">54</span>)</p>
+                    <p>console.log(numbers)</p> <br>
+                    <p><span class="yellow">[ 1, 2, 3, 4, 5, <span class="answerColor">54</span> ]</span></p>
+                    
+                    
+                </div>
+                <p>array.push(element); Adds an element to the end of the array</p>
+        <!--Array pop-->
+                <h3>Array Pop</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>numbers.pop()</p>
+                    <p>console.log(numbers)</p> <br>
+
+                    <p><span class="yellow">[ 1, 2, 3, 4 ]</span></p>
+                </div>
+                <p>array.pop();  Removes an element to the end of the array</p>
+
+        <!--Shift-->
+                <h3>Array.shift() </h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p> 
+                    <p>numbers.shift()</p> 
+                    <p>console.log(numbers)</p> <br>
+                    <p><span class="yellow">[ 2, 3, 4, 5 ]</span></p>
+                    <p></p>
+                </div>
+                <p>array.shift(); method removes the first element from an array and returns that element.</p>
+
+        <!--Unshift-->
+                <h3>array.unshift()</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>numbers.unshift(<span class="answerColor">54</span>)</p>
+                    <p>console.log(numbers)</p> <br>
+                    <p><span class="yellow">[ <span class="answerColor">54</span>, 1, 2, 3, 4, 5 ]</span></p>
+                </div>
+                <p>array.unshift(element) // method Adds the first element from an array and returns that element.</p>
+
+        <!--splice-->
+                  <h3>array.splice()</h3>
+                  <div class="blackCoding">
+                      <p>const numbers = [1,2,3,4,5]</p>
+                      <p>console.log(numbers.splice(2))</p> <br>
+  
+                      <p><span class="yellow">[ 3, 4, 5 ]
+                      </span></p>
+                  </div>
+                  <p></p>
+
+        <!--slice-->
+                <h3>array.slice()</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>console.log(numbers.slice(1,-1))</p> <br>
+
+                    <p><soan class="yellow">[ 2, 3, 4 ]</soan></p>
+                </div>
+                <p>Returns a new array with elements from startIndex to endIndex (exclusive)</p>
+        <!--concat-->
+                <h3>array.concat()</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>const numbersTwo = [6,7,8,9,10]</p>
+                    <p>console.log(numbers.concat(numbersTwo))</p> <br>
+
+                    <p><span class="yellow">[
+                        1, 2, 3, 4,  5,
+                        6, 7, 8, 9, 10
+                      ]
+                      </span></p>
+                </div>
+                <p> Returns a new array that combines the elements of the original array and otherArray</p>
+      
+        <!--indexOf-->
+                <h3>array.indexOf()</h3>
+                <div class="blackCoding">
+                    <p>const fruits = ['apple', 'banana', 'orange', 'apple', 'grape'];</p>
+                    <p>console.log(fruits.indexOf("orange"))</p> <br>
+
+                    <p><span class="yellow">2</span></p>
+                </div>
+                <p>function is used to search for a specified value within an array or a string. It returns the index of the first occurrence of the specified value, or -1 if the value is not found.</p>
+
+        <!--split-->
+                 <h3>string.split(delimeter)</h3>
+                 <div class="blackCoding">
+                     <p>const word = "mango"
+                    </p>
+                     <p>console.log(word.split(""))</p> <br>
+ 
+                     <p><span class="yellow">[ 'm', 'a', 'n', 'g', 'o' ]</span></p>
+                 </div>
+                 <p>Splits a string into an array of substrings based on the delimiter</p>
+
+         <!--join-->
+                <h3>array.join(delimeter)</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>console.log(numbers.join("..."))</p>  <br>
+
+                    <p><span class="yellow">1...2...3...4...5</span></p>
+                </div>
+                <p>Joins the elements of an array into a string with the specified delimiter</p>
+
+
+        <!--includes-->
+                <h3>array.includes(element)</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p> <br>
+
+
+                    <p>console.log(numbers.includes(3)) => <span class="yellow">true</span></p> 
+                    <p>console.log(numbers.includes(6)) => <span class="yellow">false</span></p>
+                </div>
+                <p>Returns true if the element is found in the array, false otherwise</p>
+
+
+        <!--Sort-->
+                <h3>array.sort()</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [3,4,1,5,2]</p>
+                    <p>console.log(numbers.sort())</p> <br>
+
+                    <p><span class="yellow">[ 1, 2, 3, 4, 5 ]</span></p>
+                </div>
+                <p>method is used to sort the elements of an array in place, meaning it modifies the original array.</p>
+
+        <!--sort -->
+                <h3>Sort descending order</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [3,4,1,5,2]</p>
+                    <p>const result = numbers.sort((a,b) => a - b)</p> 
+                    <p>console.log(result)</p> <br>
+
+                    <p><span class="yellow">[ 1, 2, 3, 4, 5 ]</span></p> <br>
+
+                    <p>const numbers = [3,4,1,5,2]</p>
+                    <p>const result = numbers.sort((a,b) => b - a)</p> 
+                    <p>console.log(result)</p> <br>
+
+                    <p><span class="yellow">[ 5, 4, 3, 2, 1 ]</span></p>
+
+                    
+                </div>
+                <p>The code array.sort((a, b) => a - b) is an example of using the sort() method with a custom comparison function to sort an array in ascending numerical order.</p>
+
+        <!--forEach-->
+                <h3>array.forEach()</h3>
+                <div class="blackCoding">
+                    <p>const numbers = [1,2,3,4,5]</p>
+                    <p>numbers.forEach((n, index)=>{ <br>
+                        console.log(`Element at index ${index} is: ${n}`) <br>
+                    })
+                    </p> 
+
+                    <p><span class="yellow">Element at index 1 is: 2 <br>
+                        Element at index 2 is: 3 <br>
+                        Element at index 3 is: 4 <br>
+                        Element at index 4 is: 5</span></p>
+                </div>
+                <p>method when you want to iterate over each element of an array and perform an action or operation on each element. Here are a few scenarios where</p>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="document-object-model">
+            <div class="document-querySelector">
+                <h2>What is DOM?</h2>
+                <p>DOM stands for Document Object Model. It is a programming interface for web documents,</p>
+                <div class="blackCoding">
+                        <p><span class="darkBlue">const</span> <span class="blue">button</span> = <span class="lightBlue">document</span>.querySelector("#button")</p>
+
+                        <p><span class="darkBlue">const</span> <span class="blue">button</span> = <span class="lightBlue">document</span>.querySelectorAll("#button")</p>
+                </div>
+                <p>querySelector can take 2 parameters, which a "." and "#" in the first example we are selecting a tag with the id of buttom.</p>
+
+                <p>in the other hand in the second element we will select all the ID that has the id of "#button"</p>
+
+                <div class="blackCoding">
+                    <p><span class="darkBlue">const</span> <span class="blue">button</span> = <span class="lightBlue">document</span>.getElementById("button")</p>
+
+                    <p><span class="darkBlue">const</span> <span class="blue">button</span> = <span class="lightBlue">document</span>.getElementByClassName("button")</p>
+                </div>
+
+                <p>in the first example we are getting only elements that have the id of button</p>
+
+                <p>in the first example we are getting only elements that have the class of button</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src = "/JS/whatIsJS.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/components/prism-javascript.min.js"></script>
+</body>
+</html>

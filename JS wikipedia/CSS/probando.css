@@ -1,0 +1,19 @@
+.parent{
+    position: relative;
+    height: 1000px;
+}
+
+.child-one{
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+/*position: fixed; deja el atributo en la pantalla a pesar de que muevas la pagina (scroll)
+position: sticky; hace que se pegue cuando hagas scroll hacia abajo*/
+.child-two{
+
+}
+
+.child-three{
+
+}

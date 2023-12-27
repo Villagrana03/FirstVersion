@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 251, 245);
+}
+/*span colors*/
+.darkBlue{
+    color: rgb(33, 33, 140);
+}
+
+.purple{
+    color: rgb(120, 36, 139);
+}
+
+.green{
+    color: green
+}
+
+.blue{
+    color: rgb(27, 121, 244);
+}
+
+.lightBlue{
+    color: rgb(70, 200, 248);
+}
+
+.orange{
+    color: orange;
+}
+
+.pink{
+    color: rgb(226, 29, 190);
+}
+
+.yellow{
+    color: rgb(227, 227, 7);
+}
+
+.lightGreen{
+    color: rgb(51, 107, 35);
+}
+
+.boldClass{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.answerColor{
+    color:rgb(59, 223, 184)
+}
+
+.blackCoding p{
+    color: white;
+    display: block;
+    margin: 10px;
+}
+/*new thing*/
+h1{
+    color: rgb(238, 0, 255);
+}
+
+h2{
+    background-image: linear-gradient(to right, #e8f005 5%,  #a39d9d 20%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+.ejemplo{
+    background-color: #2a2e31;
+    color: white;
+}
+
+/*For coding*/
+.blackCoding{
+    background-color: #252525;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.codingExample{
+    margin: 20px;
+    color: white;
+}
+

@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(144, 144, 144);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    margin-top: 5px;
+}
+
+.first h2{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(34, 83, 133) 35%, rgb(176, 197, 38)60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.second h2{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(34, 83, 133) 35%, rgb(176, 197, 38)60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.html-titleBlue-yellow, .third h2{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(34, 83, 133) 35%, rgb(176, 197, 38)60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.list-title{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.element{
+    color: rgb(0, 0, 0);
+    font-size: 15px;;
+}
+
+.center-image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(213, 36, 151);
+}
+
+.HTML-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.HTML-button:hover{
+    background-color: aliceblue;
+    opacity: .5;
+    transition: .4 ease;
+}

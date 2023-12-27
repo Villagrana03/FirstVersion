@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/step.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's CSS &lt; &gt;</title>
+</head>
+<body>
+    <h1 >What's CSS?</h1>
+    <a href="../index.html">Go Back!</a>
+
+    <p>CSS es una hoja de estilo disenado para darle forma visual a una pagina web. CSS hace referencia a <span class="emClass">Cascade Style Sheet</span></p>
+
+    <p>se denomina hoja de estilo en cascada por la forma que se estructura el codigo de un archivo CSS.</p>
+
+    <p>Existen 3 maneras de trabajar CSS.</p>
+    <ul>
+        <li>Inline CSS</li>
+        <li>CSS interno</li>
+        <li>CSS externo</li>
+    </ul>
+
+    <p><span class="boldClass">Inline CSS</span> EL CSS que se trabaja en forma de Linea, se escribe spbre la etiqueta de HTML a traves del atributo <span class="emClass">Style</span>.</p>
+        
+    <p> <span class="boldClass">CSS interno</span>Se trabaja por medio de la etiqueta &lt;Style &gt; Dentro de esta etiqueta se escribe el codigo de <span class="boldClass">CSS</span>.</p>
+
+    <p><span class="boldClass">CSS Externo:</span> El codigo de CSS se trabaja por medio de un archivo CSS externo que se manda a llamar al HTML que necesita los estilos a traves de la etiqueta &lt;Link&gt;</p>
+
+    <h2>Estructura del codigo CSS</h2>
+    <p>EL codigo CSS se estructura de la siguiente manera:</p>
+em
+<code>
+    <pre>
+        /* Forma generica */
+        selector{
+            atributo: valor;
+        }
+
+        /* Selector de una ID */
+        #selector{
+            atributo: valor;
+        }
+
+        /* Selector de una clase */
+        .selector{
+            atributo: valor;
+        }
+    </pre>
+</code>
+
+<p>En CSS los selectores pueden ser una etiqueta de HTML, un ID, estilo o una Clase. Como se muestra a continuacion</p>
+
+<code>
+    <pre>
+        &lt; H1 id="ejemploID" &gt;
+        &lt; H1 clase="ejemploClase" &gt;
+        &lt; H1 style="atributo: valor;" &gt;
+    </pre>
+</code>
+
+<p><span>Nota;</span>Las clases de CSS son diferentes a las clases que se manejan lenguajes de Programacion Orientado a Objetos</p>
+
+<p>las pseudo clases nos permiten selecionar ciertos elemntos de HTML que cumplan algunas caracteristicas.</p>
+
+<code>
+
+    <h3>pseudo codigo</h3>
+    <pre>
+        li: first-child{
+            /*atributo*/
+        }
+
+        li:last-child{
+            /*atributos*/
+        }
+
+        li:
